@@ -15,7 +15,7 @@ Experience the SmartHealthBot application live! The frontend is deployed and ful
 ## 👨‍💻 Developer
 
 **Jitendra Kumar Dodwadiya**  
-📧 Email: [jitendrakumar637587@gmail.com](mailto:jitendrakumar637587@gmail.com)  
+📧 Email: [gaurgs721@gmail.com](mailto:gaurgs721@gmail.com)  
 🌐 Portfolio: [dwdjitendra-portfolio.vercel.app](https://dwdjitendra-portfolio.vercel.app/)  
 💼 LinkedIn: [dwdjitendra](https://www.linkedin.com/in/dwdjitendra/)  
 🚀 Full-Stack Developer specializing in MERN Stack & AI/ML Integration
@@ -23,16 +23,19 @@ Experience the SmartHealthBot application live! The frontend is deployed and ful
 ## 🚀 Quick Start
 
 ### 🌐 Try the Live Application
+
 **[🔗 SmartHealthBot Live Demo](https://smart-health-bot-ru2g.vercel.app/)**
 
 ### 💻 Local Development Setup
 
 #### Prerequisites
+
 - Node.js (v18+)
 - Python (v3.8+)
 - MongoDB (local or cloud)
 
 ### Option 1: Automatic Setup (Windows)
+
 ```powershell
 # Run the PowerShell startup script
 ./start-services.ps1
@@ -41,27 +44,33 @@ Experience the SmartHealthBot application live! The frontend is deployed and ful
 ### Option 2: Manual Setup
 
 #### 1. Start AI Model Service
+
 ```bash
 cd ai-model
 pip install -r requirements.txt
 python app.py
 ```
+
 The AI model will be available at `http://localhost:5000`
 
 #### 2. Start Backend Server
+
 ```bash
 cd server
 npm install
 npm run dev
 ```
+
 The server will be available at `http://localhost:5001`
 
 #### 3. Start Frontend Client
+
 ```bash
 cd client
 npm install
 npm run dev
 ```
+
 The client will be available at `http://localhost:5173`
 
 ## ✅ Recent Updates & Fixes Applied
@@ -83,6 +92,7 @@ The client will be available at `http://localhost:5173`
 ### Environment Variables
 
 #### Server (.env)
+
 ```env
 PORT=5001
 NODE_ENV=development
@@ -94,6 +104,7 @@ RAZORPAY_KEY_SECRET=your_razorpay_key_secret
 ```
 
 #### Client (.env)
+
 ```env
 VITE_API_URL=http://localhost:5001/api
 VITE_AI_MODEL_URL=http://localhost:5000
@@ -102,6 +113,7 @@ VITE_AI_MODEL_URL=http://localhost:5000
 ## 🚀 Features
 
 ### Core Healthcare Features
+
 - **🤖 AI Symptom Checker**: Advanced machine learning model for accurate symptom analysis and disease prediction
 - **👨‍⚕️ Doctor Consultation**: Connect with certified healthcare professionals across specializations
 - **💳 Payment Integration**: Secure Razorpay integration for seamless consultation fee processing
@@ -110,6 +122,7 @@ VITE_AI_MODEL_URL=http://localhost:5000
 - **🔐 Secure Authentication**: JWT-based authentication with protected routes and profile management
 
 ### Advanced UI/UX Features
+
 - **🎨 Professional Design**: Clean white theme with optimal contrast ratios for better accessibility
 - **🏠 Interactive Dashboard**: Comprehensive health dashboard with navigation cards and statistics
 - **👤 Profile Management**: Enhanced profile dropdown with smooth animations and click-outside detection
@@ -118,6 +131,7 @@ VITE_AI_MODEL_URL=http://localhost:5000
 - **🎯 Modern Navigation**: Intuitive sidebar navigation with proper active states and routing
 
 ### AI/ML Capabilities
+
 - **🧠 Disease Prediction**: ML-powered disease prediction based on symptom descriptions
 - **📝 Natural Language Processing**: Advanced NLP for symptom analysis and interpretation
 - **📊 Confidence Scoring**: Accurate confidence scores for AI predictions and recommendations
@@ -150,6 +164,7 @@ SmartHealthBot/
 ## 🛠️ Technology Stack
 
 ### Frontend
+
 - **React.js 18.3.1** - Modern UI framework with TypeScript
 - **Tailwind CSS** - Utility-first CSS framework for responsive design
 - **React Router** - Client-side routing and navigation
@@ -158,6 +173,7 @@ SmartHealthBot/
 - **TypeScript** - Type-safe JavaScript for better development experience
 
 ### Backend
+
 - **Node.js** - JavaScript runtime environment
 - **Express.js** - Fast web application framework
 - **MongoDB** - NoSQL database for flexible data storage
@@ -166,6 +182,7 @@ SmartHealthBot/
 - **Bcrypt** - Password hashing and security
 
 ### AI/ML Service
+
 - **Python Flask** - Lightweight web framework for AI service
 - **Scikit-learn** - Machine learning library for disease prediction
 - **Pandas** - Data manipulation and analysis
@@ -173,6 +190,7 @@ SmartHealthBot/
 - **Natural Language Processing** - Text analysis and symptom interpretation
 
 ### Payment & External Services
+
 - **Razorpay** - Payment gateway for secure transactions
 - **MongoDB Atlas** - Cloud database hosting
 - **PowerShell Automation** - Service management and deployment scripts
@@ -189,6 +207,7 @@ Before running this application, make sure you have the following installed:
 ## 🚀 Installation & Setup
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/dwdjitendra-cloud/SmartHealth-Bot.git
 cd SmartHealth-Bot
@@ -197,6 +216,7 @@ cd SmartHealth-Bot
 ### 2. Install Dependencies
 
 #### Install all dependencies at once:
+
 ```bash
 npm run install-all
 ```
@@ -204,11 +224,13 @@ npm run install-all
 #### Or install manually:
 
 **Root dependencies:**
+
 ```bash
 npm install
 ```
 
 **Frontend dependencies:**
+
 ```bash
 cd client
 npm install
@@ -216,6 +238,7 @@ cd ..
 ```
 
 **Backend dependencies:**
+
 ```bash
 cd server
 npm install
@@ -223,6 +246,7 @@ cd ..
 ```
 
 **AI Model dependencies:**
+
 ```bash
 cd ai-model
 pip install -r requirements.txt
@@ -232,7 +256,9 @@ cd ..
 ### 3. Environment Configuration
 
 #### Backend Environment (.env)
+
 Create `server/.env` file:
+
 ```env
 # Server Configuration
 PORT=5001
@@ -258,6 +284,7 @@ CLIENT_URL=http://localhost:5173
 ### 4. Database Setup
 
 #### MongoDB Atlas Setup:
+
 1. Create a MongoDB Atlas account
 2. Create a new cluster
 3. Create a database user
@@ -265,6 +292,7 @@ CLIENT_URL=http://localhost:5173
 5. Replace the MONGODB_URI in your .env file
 
 #### Seed Sample Data:
+
 ```bash
 cd server
 node utils/seedDoctors.js
@@ -273,12 +301,14 @@ node utils/seedDoctors.js
 ### 5. Start the Application
 
 #### Quick Start (Windows - Recommended):
+
 ```powershell
 # Use the automated startup script
 ./start-services.ps1
 ```
 
 #### Development Mode (All services):
+
 ```bash
 npm run dev
 ```
@@ -286,18 +316,21 @@ npm run dev
 #### Or start services individually:
 
 **AI Model Service (Port 5000):**
+
 ```bash
 cd ai-model
 python app.py
 ```
 
 **Backend Server (Port 5001):**
+
 ```bash
 cd server
 npm run dev
 ```
 
 **Frontend Client (Port 5173):**
+
 ```bash
 cd client
 npm run dev
@@ -306,27 +339,32 @@ npm run dev
 ## 🔧 API Documentation
 
 ### Authentication Endpoints
+
 - `POST /api/auth/register` - User registration
 - `POST /api/auth/login` - User login
 - `GET /api/auth/me` - Get current user
 - `PUT /api/auth/profile` - Update profile
 
 ### Symptom Analysis Endpoints
+
 - `POST /api/symptoms/analyze` - Analyze symptoms
 - `GET /api/symptoms/history` - Get symptom history
 - `GET /api/symptoms/history/:id` - Get specific record
 
 ### Payment Endpoints
+
 - `POST /api/payments/create-order` - Create payment order
 - `POST /api/payments/verify` - Verify payment
 - `GET /api/payments/history` - Get payment history
 
 ### Doctor Endpoints
+
 - `GET /api/doctors` - Get all doctors
 - `GET /api/doctors/:id` - Get doctor by ID
 - `POST /api/doctors/search` - Search doctors
 
 ### Dashboard Endpoints
+
 - `GET /api/dashboard/stats` - Get dashboard statistics
 - `GET /api/dashboard/health-summary` - Get health summary
 
@@ -337,6 +375,7 @@ npm run dev
 #### Sample Requests:
 
 **Register User:**
+
 ```json
 POST /api/auth/register
 {
@@ -349,6 +388,7 @@ POST /api/auth/register
 ```
 
 **Analyze Symptoms:**
+
 ```json
 POST /api/symptoms/analyze
 Authorization: Bearer <token>
@@ -358,6 +398,7 @@ Authorization: Bearer <token>
 ```
 
 **Create Payment Order:**
+
 ```json
 POST /api/payments/create-order
 Authorization: Bearer <token>
@@ -371,9 +412,11 @@ Authorization: Bearer <token>
 ## 🚀 Deployment
 
 ### ✅ Frontend Deployment (Vercel) - LIVE
+
 **🌐 Live URL**: [https://smart-health-bot-ru2g.vercel.app/](https://smart-health-bot-ru2g.vercel.app/)
 
 The frontend is successfully deployed on Vercel with:
+
 - ✅ Automatic deployments from GitHub
 - ✅ HTTPS enabled
 - ✅ Global CDN distribution
@@ -381,18 +424,22 @@ The frontend is successfully deployed on Vercel with:
 - ✅ Production environment variables configured
 
 ### ✅ Backend Deployment (Render) - LIVE
+
 **🔧 Backend URL**: [https://smarthealth-bot-server.onrender.com](https://smarthealth-bot-server.onrender.com)
 
 The backend service is successfully deployed on Render with:
+
 - ✅ Node.js 22.16.0 with Express server
 - ✅ MongoDB Atlas connection configured
 - ✅ All API endpoints active
 - ✅ CORS configured for frontend integration
 
 ### ✅ AI Model Deployment (Render) - LIVE
+
 **🤖 AI Model URL**: [https://smarthealth-bot-ai-model.onrender.com](https://smarthealth-bot-ai-model.onrender.com)
 
 The AI model service is successfully deployed on Render with:
+
 - ✅ Python 3.13.4 with compatible pandas/numpy
 - ✅ Flask API with CORS configured
 - ✅ Machine learning models loaded
@@ -416,43 +463,51 @@ Environment Variables         MongoDB Atlas
 
 ### 🔗 Service Endpoints
 
-| Service | URL | Status |
-|---------|-----|--------|
-| **Frontend** | https://smart-health-bot-ru2g.vercel.app/ | 🟢 Live |
-| **Backend API** | https://smarthealth-bot-server.onrender.com/api | 🟢 Live |
-| **AI Model** | https://smarthealth-bot-ai-model.onrender.com | 🟢 Live |
-| **Database** | MongoDB Atlas | 🟢 Connected |
+| Service         | URL                                             | Status       |
+| --------------- | ----------------------------------------------- | ------------ |
+| **Frontend**    | https://smart-health-bot-ru2g.vercel.app/       | 🟢 Live      |
+| **Backend API** | https://smarthealth-bot-server.onrender.com/api | 🟢 Live      |
+| **AI Model**    | https://smarthealth-bot-ai-model.onrender.com   | 🟢 Live      |
+| **Database**    | MongoDB Atlas                                   | 🟢 Connected |
 
 ### 🚀 Deployment Instructions
 
 **To deploy your own instance:**
+
 1. Build the frontend:
+
 ```bash
 cd client
 npm run build
 ```
+
 2. Deploy the `dist` folder to Vercel or your hosting service
 3. Set environment variables for API endpoints
 
 ### ✅ AI Model Deployment (Render) - LIVE
+
 **🤖 AI Model URL**: [https://smarthealth-bot-ai-model.onrender.com](https://smarthealth-bot-ai-model.onrender.com)
 
 The AI model service is successfully deployed on Render with:
+
 - ✅ Python 3.13.4 with compatible pandas/numpy
 - ✅ Flask API with CORS configured
 - ✅ Machine learning models loaded
 - ✅ Symptom analysis endpoints active
 
 ### ✅ Backend Deployment (Render) - LIVE
+
 **🔧 Backend URL**: [https://smarthealth-bot-server.onrender.com](https://smarthealth-bot-server.onrender.com)
 
 The backend service is successfully deployed on Render with:
+
 - ✅ Node.js 22.16.0 with Express server
 - ✅ All dependencies installed successfully
 - ✅ Connected to AI model service
 - ⚠️ **Needs MongoDB Atlas configuration** (add MONGODB_URI environment variable)
 
 ### 🔧 Final Configuration Steps
+
 1. **Set up MongoDB Atlas** and add connection string to Render environment variables
 2. **Update Vercel frontend** environment variables with backend URL
 3. **Test full end-to-end functionality**
@@ -462,15 +517,18 @@ The backend service is successfully deployed on Render with:
 ### For End Users
 
 1. **Registration/Login**
+
    - Create an account with email and password
    - Complete your profile with health information
 
 2. **Symptom Analysis**
+
    - Navigate to Symptom Checker
    - Describe your symptoms in detail
    - Review AI analysis and recommendations
 
 3. **Doctor Consultation**
+
    - Browse available doctors
    - Filter by specialization
    - Pay consultation fee
@@ -484,6 +542,7 @@ The backend service is successfully deployed on Render with:
 ### For Developers
 
 1. **Adding New Features**
+
    - Follow the existing code structure
    - Add proper validation and error handling
    - Update API documentation
@@ -515,6 +574,7 @@ We welcome contributions to improve SmartHealthBot! Here's how you can contribut
 7. **Submit a pull request** with a clear description of your changes
 
 ### Development Guidelines
+
 - Follow the existing code style and conventions
 - Write meaningful commit messages
 - Add proper TypeScript types for new features
@@ -530,6 +590,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For support, questions, or collaboration opportunities:
 
 **Developer Contact:**
+
 - 📧 **Email**: [jitendrakumar637587@gmail.com](mailto:jitendrakumar637587@gmail.com)
 - 🌐 **Portfolio**: [dwdjitendra-portfolio.vercel.app](https://dwdjitendra-portfolio.vercel.app/)
 - 💼 **LinkedIn**: [dwdjitendra](https://www.linkedin.com/in/dwdjitendra/)
@@ -537,6 +598,7 @@ For support, questions, or collaboration opportunities:
 - 📖 **Documentation**: [Project Wiki](https://github.com/dwdjitendra-cloud/SmartHealth-Bot/wiki)
 
 ### Quick Response Times
+
 - **Bug Reports**: Usually within 24-48 hours
 - **Feature Requests**: Reviewed weekly
 - **Pull Requests**: Reviewed within 2-3 business days
@@ -556,6 +618,7 @@ Special thanks to the following resources and communities that made this project
 - **💡 Open Source Community** - For the countless libraries and tools that power this application
 
 ### Special Recognition
+
 - **Healthcare Professionals** - For insights into medical workflow requirements
 - **Beta Testers** - For valuable feedback during development phases
 - **Open Source Contributors** - For improving the codebase through pull requests and issues
@@ -564,9 +627,10 @@ Special thanks to the following resources and communities that made this project
 
 ## ⚠️ Medical Disclaimer
 
-**Important Notice**: This application is designed for **educational and demonstration purposes only**. 
+**Important Notice**: This application is designed for **educational and demonstration purposes only**.
 
 ### Legal Disclaimer
+
 - 🚫 **Not a Medical Device**: This software is not intended to be a medical device or diagnostic tool
 - 👨‍⚕️ **Professional Consultation Required**: Always consult with qualified healthcare professionals for medical concerns
 - 🔬 **No Medical Advice**: The AI predictions and recommendations should not be considered as professional medical advice
@@ -574,6 +638,7 @@ Special thanks to the following resources and communities that made this project
 - ⚖️ **Limitation of Liability**: The developers are not responsible for any medical decisions based on this application
 
 ### Recommended Use
+
 - ✅ Educational learning about healthcare technology
 - ✅ Technology demonstration and portfolio showcase
 - ✅ Understanding AI/ML applications in healthcare
