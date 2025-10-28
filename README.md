@@ -14,10 +14,9 @@ Experience the SmartHealthBot application live! The frontend is deployed and ful
 
 ## 👨‍💻 Developer
 
-**Jitendra Kumar Dodwadiya**  
+**Ganesh Singh Gaur**  
 📧 Email: [gaurgs721@gmail.com](mailto:gaurgs721@gmail.com)  
-🌐 Portfolio: [dwdjitendra-portfolio.vercel.app](https://dwdjitendra-portfolio.vercel.app/)  
-💼 LinkedIn: [dwdjitendra](https://www.linkedin.com/in/dwdjitendra/)  
+💼 LinkedIn: [GaneshSinghGaur](https://www.linkedin.com/in/ganesh-singh-gaur-21780b23b/)  
 🚀 Full-Stack Developer specializing in MERN Stack & AI/ML Integration
 
 ## 🚀 Quick Start
@@ -209,7 +208,7 @@ Before running this application, make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/dwdjitendra-cloud/SmartHealth-Bot.git
+git clone https://github.com/GaneshSinghGaur/SmartHealth-Bot-Application
 cd SmartHealth-Bot
 ```
 
@@ -591,11 +590,8 @@ For support, questions, or collaboration opportunities:
 
 **Developer Contact:**
 
-- 📧 **Email**: [jitendrakumar637587@gmail.com](mailto:jitendrakumar637587@gmail.com)
-- 🌐 **Portfolio**: [dwdjitendra-portfolio.vercel.app](https://dwdjitendra-portfolio.vercel.app/)
-- 💼 **LinkedIn**: [dwdjitendra](https://www.linkedin.com/in/dwdjitendra/)
-- 🐛 **Issues**: Create an issue on [GitHub Issues](https://github.com/dwdjitendra-cloud/SmartHealth-Bot/issues)
-- 📖 **Documentation**: [Project Wiki](https://github.com/dwdjitendra-cloud/SmartHealth-Bot/wiki)
+- 📧 **Email**: [gaurgs721@gmail.com](mailto:gaurgs721@gmail.com)
+- 💼 **LinkedIn**: [GaneshSinghGaur](https://www.linkedin.com/in/ganesh-singh-gaur-21780b23b/)
 
 ### Quick Response Times
 
@@ -646,4 +642,4 @@ Special thanks to the following resources and communities that made this project
 
 ---
 
-**Built with ❤️ by [Jitendra Kumar](https://www.linkedin.com/in/dwdjitendra/) | Connect for collaboration opportunities!**
+**Built with ❤️ by [Ganeswh Singh](https://www.linkedin.com/in/ganesh-singh-gaur-21780b23b/) | Connect for collaboration opportunities!**

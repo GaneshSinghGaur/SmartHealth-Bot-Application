@@ -471,14 +471,14 @@ const Register: React.FC = () => {
                 {/* Developer Name */}
                 <div>
                   <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-1">
-                    Jitendra
+                    Ganesh
                   </h3>
                   <p className="text-gray-600 text-sm font-medium">Full Stack Developer</p>
                 </div>
                 
                 {/* LinkedIn Button */}
                 <a
-                  href="https://www.linkedin.com/in/dwdjitendra/"
+                  href="https://www.linkedin.com/in/ganesh-singh-gaur-21780b23b/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-3 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg"
